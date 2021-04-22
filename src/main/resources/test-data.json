@@ -10,7 +10,7 @@
   "languageJSONFormat": "https://raw.githubusercontent.com/BiscuitDevelopment/SkyblockAddons/development/src/main/resources/lang/%s.json",
 
   "disabledFeatures": {
-    "all": [2, 12, 16, 30, 31, 32, 35, 41, 44, 47, 51, 56, 59, 86, 89, 151, 154, 159],
+    "all": [31, 41, 44],
     "1.5.0": [],
     "1.5.1": [],
     "1.5.5": []
@@ -81,5 +81,17 @@
     "Lure": 6,
     "Magnet": 6,
     "Spiked Hook": 6
-  }
+  },
+
+  "legendarySeaCreatures": [
+    "WATER_HYDRA",
+    "SEA_EMPEROR",
+    "PHANTOM_FISHER",
+    "GREAT_WHITE_SHARK",
+    "YETI",
+    "GRIM_REAPER"
+  ],
+  "hypixelBrands": [
+    ".*Hypixel BungeeCord.*"
+  ]
 }
