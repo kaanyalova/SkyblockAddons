@@ -40,5 +40,7 @@ jobs:
       with:
         path: ${{ env.PROPERTIES_PATH }}
         property: version
+    - name: idk 
+      run: ./gradlew setupDecompWorkspace
     - name: Build with Gradle
       run: ./gradlew build
