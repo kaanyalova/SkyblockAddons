@@ -14,8 +14,6 @@
     "editLocations": "Επεξεργάσου τις Τοποθεσίες GUI",
     "guiScale": "Κλίμακα Gui: %scale%",
     "resetLocations": "Επαναφορά Τοποθεσιών",
-    "hideDurability": "Απόκρυψη Αντοχής Εργαλείου",
-    "showEnchantmentsReforges": "Μαγείες & Reforges",
     "minionStopWarning": "Προειδοποίηση \"Το Minion δεν Μπορεί να Φτάσει\"",
     "hidePlayersNearNPCs": "Κρύψε Παίχτες Κοντά Σε Σημαντικούς Χαρακτήρες",
     "backpackStyle": "Στυλ Σακιδίου: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Απενεργοποιήστε το να αναβοσβήνουν τα Night Vision Potion",
     "disableMinionLocationWarning": "Απενεργοποίηση προειδοποιήσεων τοποθεσίας η οποία δεν είναι τέλεια",
     "jungleAxeCooldown": "Αποκλεισμός Jungle Axe / Treecapitator στο Cooldown",
-    "organizeLongEnchantmentLists": "Οργανώστε τις μεγάλες λίστες μαγείας",
     "showItemCooldowns": "Εμφάνιση αντικειμένων Cooldowns",
     "speedPercentage": "Ποσοστό Ταχύτητας",
     "collectionDisplay": "Επιδεξιότητα μπάρα προόδου",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Πέτρινο κατοικίδιο Tracker",
     "dolphinPetTracker": "Δελφίνι κατοικίδιο Tracker",
     "dungeonsTeammateNameOverlay": "Επικάλυψη ονόματος συμπαίκτη Dungeon",
-    "showExpertiseKills": "Εμφάνιση Expertise Kills",
     "dungeonsSecretsDisplay": "Εμφάνιση μυστικών Dungeon",
     "showSkillPercentageInstead": "Εμφάνιση ποσοστού αντί για XP",
     "showSkillXPGained": "Εμφάνιση XP αποκτήθηκαν",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Άνοιγμα δώρων πιο εύκολα",
     "showSwordKills": "Εμφάνιση Sword Kills",
     "compactTabList": "Συμπαγής λίστα καρτελών",
-    "highlightMaxEnchantments": "Επισημάνετε τις ειδικές γοητείες",
+    "highlightSpecialEnchantments": "Επισημάνετε τις ειδικές γοητείες",
     "disableEmptyGlassPanes": "Απενεργοποίηση κενού υαλοπίνακα",
     "candyPointsCounter": "Spooky Event Καραμέλες / μετρητές πόντων",
     "healingCircleOpacity": "Θεραπεία αδιαφάνειας κύκλου",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Level 100 Legendary Monkey",
     "biggerWake": "Enlarge Overlay Particles",
     "stackingEnchantProgress": "Show Stacking Enchant Progress",
-    "showReforgeOverlay": "Show Reforge Overlay"
+    "showReforgeOverlay": "Show Reforge Overlay",
+    "reforgeFilter": "Reforge Filter",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Μαγεύει",
@@ -208,16 +213,6 @@
     "separateMultiple": "Διαχωρίστε τα πολλαπλά με κόμματα.",
     "enchantsToMatch": "%type% Να ταιριάζει:",
     "enchantsToExclude": "%type% Να εξαιρέσεις:",
-    "wantToViewPatchNotes": "Χρειάζεστε υποστήριξη ή θέλετε να διαβάσετε ολόκληρο το changelog;",
-    "downloadLink": "LINK ΓΙΑ ΒΙΝΤΕΟ/ΕΝΗΜΕΡΩΣΗ",
-    "directDownload": "LINK ΑΜΕΣΗΣ ΛΗΨΗΣ",
-    "openModFolder": "ΑΝΟΙΞΕ ΤΟΝ ΦΑΚΕΛΟ MODS",
-    "joinTheDiscord": "DISCORD LINK",
-    "newUpdateAvailable": "Μία νέα ενημέρωση (%version%) είναι διαθέσιμη!",
-    "update": {
-      "majorAvailable": "Μία νέα σημαντική ενημέρωση (%version%) είναι διαθέσιμη! Ο σύνδεσμος για την εγκατάσταση μπορεί να βρεθεί στο chat.",
-      "patchAvailable": "Μία νέα σημαντική ενημέρωση (%version%) είναι διαθέσιμη! Κοιτάξτε το chat για επιλογές εγκατάστασης!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Χρειάζεστε υποστήριξη ή θέλετε να διαβάσετε ολόκληρο το changelog;",
       "joinDiscord": "Join our Discord server!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% Ενεργά εφέ",
     "none": "Τίποτα",
     "copyModeSet": "Η λειτουργία αντιγραφής προγραμματιστή έχει οριστεί σε: %mode%. Πατήστε \"%keyName%\" για να ενεργοποιήσετε ένα αντίγραφο δεδομένων!",
-    "chroma": "Χρωματιστό"
+    "chroma": "Χρωματιστό",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "Τίποτα",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Δείχνει ότι κάνετε μια αποστολή Sven.",
     "titleTarantula": "Αποστολή Ταραντούλα",
     "descriptionTarantula": "Δείχνει ότι κάνετε μια αποστολή Tarantula."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "η δευτερεύουσα εντολή για να λάβετε λεπτομερή χρήση για"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Dev) §7Επαναφορτώνει όλες τις ρυθμίσεις και τους πόρους του mod. Το παιχνίδι θα παγώσει για λίγα δευτερόλεπτα."

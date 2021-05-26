@@ -14,8 +14,6 @@
     "editLocations": "Move Yer GUI",
     "guiScale": "Gui Scale: %scale%",
     "resetLocations": "Reset Locations",
-    "hideDurability": "'ide Item Durability",
-    "showEnchantmentsReforges": "Magic n' Reforgery",
     "minionStopWarning": "\"Minion Cannot Reach\" Warnin'",
     "hidePlayersNearNPCs": "'ide scallywags near important NPCs",
     "backpackStyle": "Backpack Style: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Disable Night Seein' Potion Blinkin'",
     "disableMinionLocationWarning": "Disable Location Be Not Perfect Warnin’s",
     "jungleAxeCooldown": "Block Jungle Axe/Treecapitator on Cooldown",
-    "organizeLongEnchantmentLists": "Organize yer Longer Magic Lists",
     "showItemCooldowns": "Show Yer Item Cooldowns",
     "speedPercentage": "Yer Speed Percent",
     "collectionDisplay": "Skill Progress Display",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Rock Pet Tracker",
     "dolphinPetTracker": "Dolphin Pet Tracker",
     "dungeonsTeammateNameOverlay": "Dungeons Crewmate Name Overlay",
-    "showExpertiseKills": "Show Expertise Kills",
     "dungeonsSecretsDisplay": "Dungeons Secrets Display",
     "showSkillPercentageInstead": "Show Percentage Instead o' XP",
     "showSkillXPGained": "Show XP Gained",
@@ -175,25 +171,34 @@
     "easierPresentOpening": "Open Presents Easier",
     "showSwordKills": "Show Cutlass Kills",
     "compactTabList": "Compact Tab List",
-    "highlightMaxEnchantments": "'ighlight Special Enchantments",
+    "highlightSpecialEnchantments": "'ighlight Special Enchantments",
     "disableEmptyGlassPanes": "Disable Empty Glass Panes",
     "candyPointsCounter": "Spooky Event Candy/Points Count'r",
     "healingCircleOpacity": "Healin' Circle Opacity",
     "chromaSize": "Chroma Size",
     "chromaSaturation": "Chroma Col'rfullness",
     "chromaBrightness": "Level o' Chroma Brightness",
-    "useNewChromaEffect": "Use New Chroma Effect",
-    "showExperimentationTableTooltips": "Show Experimentation Table Tooltips",
-    "onlyMineOresDwarvenMines": "Only Mine Ores in the Dwarven Mines",
+    "useNewChromaEffect": "Use Th' Effect o' New Chroma",
+    "showExperimentationTableTooltips": "Show Tooltips o' th' Experimentation Table",
+    "onlyMineOresDwarvenMines": "Only Harvest Ores in th' Dwarven Mines",
     "drillFuelBar": "Drill Fuel Bar",
-    "drillFuelText": "Drill Fuel Number",
-    "fishingParticleOverlay": "Fishing Particle Overlay",
-    "enchantmentLoreParsing": "Parse Enchant Tooltips",
-    "cooldownPrediction": "Predict and Shorten Cooldown",
-    "legendaryMonkeyLevel100": "[TEMP] Level 100 Legendary Monkey",
+    "drillFuelText": "Number ' Drill Fuel",
+    "fishingParticleOverlay": "Overlay o' th' Fishin' Particles",
+    "enchantmentLoreParsing": "Enchanment Tooltips Parsin'",
+    "cooldownPrediction": "Predict an' Shorten Cooldown",
+    "legendaryMonkeyLevel100": "[TEMP] Lev'l 100 Legendary Monkey",
     "biggerWake": "Enlarge Overlay Particles",
     "stackingEnchantProgress": "Show Stacking Enchant Progress",
-    "showReforgeOverlay": "Show Reforge Overlay"
+    "showReforgeOverlay": "Show Reforge Overlay",
+    "reforgeFilter": "Reforge Filter",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Enchants",
@@ -208,16 +213,6 @@
     "separateMultiple": "Separate Multiple wit' Commas.",
     "enchantsToMatch": "%type% T' match:",
     "enchantsToExclude": "%type% T' exclude:",
-    "wantToViewPatchNotes": "Want t' read th' changes?",
-    "downloadLink": "VIDEO/UPDATE LINK",
-    "directDownload": "LINK O' DOWNLOADIN'",
-    "openModFolder": "OPEN YER MODS FOLDER",
-    "joinTheDiscord": "LINK O' DISCORD",
-    "newUpdateAvailable": "A new update (%version%) is available!",
-    "update": {
-      "majorAvailable": "A new major update (%version%) is available! The link for the download can be found in chat.",
-      "patchAvailable": "A new patch update (%version%) is available! Look in chat for download options!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Want t' read th' changes?",
       "joinDiscord": "Join our Discord server!",
@@ -252,15 +247,15 @@
     "chooseAColor": "Choose a Color",
     "selectedColor": "Selected Color",
     "setHexColor": "Set Hex Color",
-    "rescaleFeatures": "Rescale Features",
+    "rescaleFeatures": "Reshufflin' o' th' Abilities",
     "resizeBars": "Resize Bars",
     "showColorIcons": "Show Color Icons",
     "enableFeatureSnapping": "Enable Feature Snapping",
     "stage": "Stage %stage%",
     "switchedSlots": "You have just switched from a locked slot or rare item. Please wait a bit before dropping!",
-    "clickToOpenLink": "Click to open this link!",
-    "clickToOpenFolder": "Click to open your mods folder!",
-    "firstStatus": "This status will appear at the top",
+    "clickToOpenLink": "Click here t' see th' website matey!",
+    "clickToOpenFolder": "Click t' open yer mods folder!",
+    "firstStatus": "This status will appear at th' top",
     "secondStatus": "This status will appear under your first status",
     "fallbackStatus": "This status will appear when your automatic status has nothing to show",
     "legendarySeaCreatureWarning": "Legendary Catch!",
@@ -276,8 +271,9 @@
     "effectActive": "1 Effect Active",
     "effectsActive": "%number% Effects Active",
     "none": "None",
-    "copyModeSet": "The developer copy mode has been set to: %mode%. Press \"%keyName%\" to trigger a data copy!",
-    "chroma": "Chroma"
+    "copyModeSet": "Th' developer copy mode be set t': %mode%. Press \"%keyName%\" t' trigger a data copy!",
+    "chroma": "Chroma",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "None",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Shows that you are doing a Sven quest.",
     "titleTarantula": "Tarantula Quest",
     "descriptionTarantula": "Shows that you are doing a Tarantula quest."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "the sub-command to get detailed usage for"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Dev) §7Reloads all of the mod's settings and resources. The game will freeze for a few seconds."

@@ -14,8 +14,6 @@
     "editLocations": "Uredi GUI Lokacije",
     "guiScale": "Velikost GUI-ja: %scale%",
     "resetLocations": "Ponastavi Lokacije",
-    "hideDurability": "Skrij Trpežnost Orodja",
-    "showEnchantmentsReforges": "Enchanti & Reforgi",
     "minionStopWarning": "\"Minion Ne Doseže\" Opozorilo",
     "hidePlayersNearNPCs": "Skrij Igralce blizu pomembnih NPC-jev",
     "backpackStyle": "Stil Nahrbtnika: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Izključi Utripanje Night Vision Potion-a",
     "disableMinionLocationWarning": "Izključi Opozorila o Neugodni Lokaciji",
     "jungleAxeCooldown": "Block Jungle Axe/Treecapitator on Cooldown",
-    "organizeLongEnchantmentLists": "Organiziraj Dolge Sezname Enchantanja",
     "showItemCooldowns": "Prikaži Cooldown za Stvari",
     "speedPercentage": "Odstotek Hitrosti",
     "collectionDisplay": "Prikaz Skill Napredka",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Rock Pet Tracker",
     "dolphinPetTracker": "Dolphin Pet Tracker",
     "dungeonsTeammateNameOverlay": "Dungeons Teammate Name Overlay",
-    "showExpertiseKills": "Show Expertise Kills",
     "dungeonsSecretsDisplay": "Dungeons Secrets Display",
     "showSkillPercentageInstead": "Show Percentage Instead of XP",
     "showSkillXPGained": "Show XP Gained",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Open Presents Easier",
     "showSwordKills": "Show Sword Kills",
     "compactTabList": "Compact Tab List",
-    "highlightMaxEnchantments": "Highlight Special Enchantments",
+    "highlightSpecialEnchantments": "Highlight Special Enchantments",
     "disableEmptyGlassPanes": "Disable Empty Glass Panes",
     "candyPointsCounter": "Spooky Event Candy/Points Counter",
     "healingCircleOpacity": "Healing Circle Opacity",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Level 100 Legendary Monkey",
     "biggerWake": "Enlarge Overlay Particles",
     "stackingEnchantProgress": "Show Stacking Enchant Progress",
-    "showReforgeOverlay": "Show Reforge Overlay"
+    "showReforgeOverlay": "Show Reforge Overlay",
+    "reforgeFilter": "Reforge Filter",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Enchants",
@@ -208,16 +213,6 @@
     "separateMultiple": "Več jih ločite z vejicami.",
     "enchantsToMatch": "%type% Zaželeno:",
     "enchantsToExclude": "%type% Nezaželeno:",
-    "wantToViewPatchNotes": "Need support or want to read the full changelog?",
-    "downloadLink": "VIDEO/UPDATE LINK",
-    "directDownload": "DIRECT DOWNLOAD LINK",
-    "openModFolder": "OPEN MODS FOLDER",
-    "joinTheDiscord": "DISCORD LINK",
-    "newUpdateAvailable": "A new update (%version%) is available!",
-    "update": {
-      "majorAvailable": "Nova večja posodobitev (%version%) je na voljo! Link za prenos je v chatu.",
-      "patchAvailable": "Nova posodobitev (%version%) je na voljo! Poglej v chat za možnosti prenosa!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Need support or want to read the full changelog?",
       "joinDiscord": "Join our Discord server!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% Effects Active",
     "none": "None",
     "copyModeSet": "The developer copy mode has been set to: %mode%. Press \"%keyName%\" to trigger a data copy!",
-    "chroma": "Chroma"
+    "chroma": "Chroma",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "None",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Shows that you are doing a Sven quest.",
     "titleTarantula": "Tarantula Quest",
     "descriptionTarantula": "Shows that you are doing a Tarantula quest."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "the sub-command to get detailed usage for"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Dev) §7Reloads all of the mod's settings and resources. The game will freeze for a few seconds."

@@ -14,8 +14,6 @@
     "editLocations": "Endre brukergrensesnitt plasseringer",
     "guiScale": "Brukergrensesnitt-skala: %scale%",
     "resetLocations": "Tilbakestill brukergrensesnitt",
-    "hideDurability": "Skjul redskapsvarighet",
-    "showEnchantmentsReforges": "Fortryllinger og Reforger",
     "minionStopWarning": "\"Lakei kan ikke nå\" advarsel",
     "hidePlayersNearNPCs": "Skjul Spillere Nærme Viktige NPCer",
     "backpackStyle": "Backpack stil: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Deaktiver nattsyn trylledrikk blinking",
     "disableMinionLocationWarning": "Deaktiver plassering ikke perfekt-varsler",
     "jungleAxeCooldown": "Blokker Jungle Axe/Treecapitator når pauset",
-    "organizeLongEnchantmentLists": "Organiser Lang Fortryllelse Lister",
     "showItemCooldowns": "Vis gjenstand-pausetider",
     "speedPercentage": "Farts Prosent",
     "collectionDisplay": "Ferdighetsutvikling-visning",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Stein kjæledyr oppfølger",
     "dolphinPetTracker": "Delfin kjæledyr oppfølger",
     "dungeonsTeammateNameOverlay": "Dungeon Lagkamerater navn overlegg",
-    "showExpertiseKills": "Vis ekspertise-drap",
     "dungeonsSecretsDisplay": "Dungeons Kart Skjerm",
     "showSkillPercentageInstead": "Vis prosentandel istedenfor XP",
     "showSkillXPGained": "Vis XP Fått",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Åpne gaver enklere",
     "showSwordKills": "Vis Sverd Drap",
     "compactTabList": "Compact Tab List",
-    "highlightMaxEnchantments": "Highlight Special Enchantments",
+    "highlightSpecialEnchantments": "Highlight Special Enchantments",
     "disableEmptyGlassPanes": "Disable Empty Glass Panes",
     "candyPointsCounter": "Spooky Event Candy/Points Counter",
     "healingCircleOpacity": "Healing Circle Opacity",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Level 100 Legendary Monkey",
     "biggerWake": "Enlarge Overlay Particles",
     "stackingEnchantProgress": "Show Stacking Enchant Progress",
-    "showReforgeOverlay": "Show Reforge Overlay"
+    "showReforgeOverlay": "Show Reforge Overlay",
+    "reforgeFilter": "Reforge Filter",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Fortryllinger",
@@ -208,16 +213,6 @@
     "separateMultiple": "Skill mellom flere ledd med kommaer.",
     "enchantsToMatch": "%type% å matche:",
     "enchantsToExclude": "%type% å ekskludere:",
-    "wantToViewPatchNotes": "Trenger du hjelp eller vill du lese alle endringene?",
-    "downloadLink": "VIDEO/OPPDATERINGS LENKE",
-    "directDownload": "DIREKTE NEDLASTINGS LENKE",
-    "openModFolder": "ÅPNE MODIFIKASJONS MAPPE",
-    "joinTheDiscord": "DISCORD LENKE",
-    "newUpdateAvailable": "En ny oppdatering (%version%) er tilgjengelig!",
-    "update": {
-      "majorAvailable": "En ny stor oppdatering (%version%) er tilgjengelig! Du kan finne nedlastingslenken under i chatten.",
-      "patchAvailable": "En ny oppdatering (%version%) er tilgjengelig! Se i chatten for alternativer for nedlastning!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Trenger du hjelp eller vill du lese alle endringene?",
       "joinDiscord": "Join our Discord server!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% effekter aktive",
     "none": "Ingen",
     "copyModeSet": "The developer copy mode has been set to: %mode%. Press \"%keyName%\" to trigger a data copy!",
-    "chroma": "Chroma"
+    "chroma": "Chroma",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "Ingen",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Viser at du gjør et Sven oppdrag.",
     "titleTarantula": "Tarantula Oppdrag",
     "descriptionTarantula": "Viser at du gjør et Tarantula oppdrag."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "the sub-command to get detailed usage for"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Dev) §7Reloads all of the mod's settings and resources. The game will freeze for a few seconds."

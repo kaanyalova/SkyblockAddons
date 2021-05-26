@@ -14,8 +14,6 @@
     "editLocations": "Editar localizações",
     "guiScale": "Escala da interface: %scale%",
     "resetLocations": "Repor as localizações",
-    "hideDurability": "Esconder a durabilidade das ferramentas",
-    "showEnchantmentsReforges": "Encantamentos e Reforges",
     "minionStopWarning": "Aviso \"Minion Cannot Reach\"",
     "hidePlayersNearNPCs": "Esconder jogadores perto de NPCs importantes",
     "backpackStyle": "Estilo da backpack: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Previnir que a poção de visão noturna pisque",
     "disableMinionLocationWarning": "Esconder os avisos “Location not perfect”",
     "jungleAxeCooldown": "Bloquear o Jungle Axe/Treecapitator durante a recarga",
-    "organizeLongEnchantmentLists": "Listas de encantamentos grandes organizadas",
     "showItemCooldowns": "Mostrar os tempos de espera dos itens",
     "speedPercentage": "Percentagem de velocidade",
     "collectionDisplay": "Progresso das habilidades",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Progresso do Rock pet",
     "dolphinPetTracker": "Progresso do Dolphin pet",
     "dungeonsTeammateNameOverlay": "Mostrar os nomes dos colegas da Dungeon",
-    "showExpertiseKills": "Mostrar as kills com o encantamento Expertise",
     "dungeonsSecretsDisplay": "Mostrar os segredos da Dungeon",
     "showSkillPercentageInstead": "Mostrar percentagem em vez de XP",
     "showSkillXPGained": "Mostrar XP obtido",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Abrir presentes mais facilmente",
     "showSwordKills": "Mostrar kills com a espada",
     "compactTabList": "Lista de jogadores compacta",
-    "highlightMaxEnchantments": "Destacar encantamentos especiais",
+    "highlightSpecialEnchantments": "Destacar encantamentos especiais",
     "disableEmptyGlassPanes": "Desativar painéis de vidro vazios",
     "candyPointsCounter": "Contador de pontos/doces do Spooky Event",
     "healingCircleOpacity": "Opacidade do healing circle",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Monkey lendário de nível 100",
     "biggerWake": "Aumentar partículas customizadas",
     "stackingEnchantProgress": "Mostrar o progresso dos encantamentos progressivos",
-    "showReforgeOverlay": "Mostrar reforges no menu"
+    "showReforgeOverlay": "Mostrar reforges no menu",
+    "reforgeFilter": "Filtro de reforges",
+    "hideEnchantDescription": "Esconder a descrição do encantamento",
+    "trevorTheTrapper": {
+      "title": "Funções do Trevor the Trapper",
+      "trackedEntityProximityIndicator": "Mostrar o indicador de proximidade da entidade-alvo",
+      "highlightTrackedEntity": "Destacar entidade-alvo",
+      "showQuestCooldown": "Mostrar o tempo de espera da missão do Trevor",
+      "showQuestCooldownDescription": "Isto irá aparecer acima da cabeça do Trevor"
+    }
   },
   "messages": {
     "enchants": "encantamentos",
@@ -208,16 +213,6 @@
     "separateMultiple": "Separa vários com vírgulas.",
     "enchantsToMatch": "%type% para encontrar:",
     "enchantsToExclude": "%type% para excluír:",
-    "wantToViewPatchNotes": "Precisas de ajuda ou queres ler todas as alterações?",
-    "downloadLink": "VÍDEO DA ATUALIZAÇÃO",
-    "directDownload": "LINK DO DOWNLOAD DIRETO",
-    "openModFolder": "PASTA MODS",
-    "joinTheDiscord": "LINK PARA O DISCORD",
-    "newUpdateAvailable": "Está disponível uma nova atualização (%version%)!",
-    "update": {
-      "majorAvailable": "Está disponível uma nova atualização importante (%version%)! O link para o download pode ser encontrado no chat.",
-      "patchAvailable": "Uma nova atualização (%version%) está disponível! Procura pelas opções de download no chat!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Precisas de ajuda ou queres ler todas as alterações?",
       "joinDiscord": "Entra no nosso servidor de Discord!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% efeitos ativos",
     "none": "Nenhum",
     "copyModeSet": "O modo de cópia para programadores foi definido para: %mode%. Pressiona \"%keyName%\" para copiar os dados!",
-    "chroma": "Croma"
+    "chroma": "Croma",
+    "worldRenderedCooldownTime": "§c[SBA]: §rTempo restante: %time%s"
   },
   "discordStatus": {
     "titleNone": "Nenhum",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Mostra que estás a fazer uma missão do Sven.",
     "titleTarantula": "Missão da Tarantula",
     "descriptionTarantula": "Mostra que estás a fazer uma missão da tarantula."
+  },
+  "enchantLayout": {
+    "title": "Controla como os encantamentos são mostrados na descrição dos items",
+    "titleCompress": "Comprimir",
+    "descriptionCompress": "Comprime os encantamentos no mínimo de linhas possível",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Exibe os encantamentos como o Hypixel",
+    "titleExpand": "Expandir",
+    "descriptionExpand": "Mostra cada encantamento na sua própria linha"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "o comando para o qual desejas obter informação detalhada"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Grava as contagens armazenadas nos contadores de mortes da Dungeon para fins de depuração."
       },
       "reload": {
         "help": "§e(Program) §7Recarrega todas as definições e recursos do mod. O jogo irá congelar durante uns segundos."
@@ -493,6 +501,6 @@
     "expertiseKills": "Kills com Expertise",
     "compactedBlocks": "Blocos compactados",
     "cultivatedCrops": "Plantas cultivadas",
-    "maxed": "Maximizado"
+    "maxed": "Máximo"
   }
 }

@@ -14,8 +14,6 @@
     "editLocations": "Editar Posiciciones",
     "guiScale": "Escala del GUI: %scale%",
     "resetLocations": "Restablecer Posiciones",
-    "hideDurability": "Ocultar Durabilidad de Herramientas",
-    "showEnchantmentsReforges": "Encantamientos y Reforges",
     "minionStopWarning": "Aviso de Detención de Minion",
     "hidePlayersNearNPCs": "Ocultar Jugadores cerca de PNJs Importantes",
     "backpackStyle": "Estilo de Mochila: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Desactiva el Parpadeo del Poción de Visión Nocturna",
     "disableMinionLocationWarning": "Desactivar Avisos de Ubicación de Minion",
     "jungleAxeCooldown": "Bloquea Hacha de la Jungla/Treecapitator hasta que está recargada",
-    "organizeLongEnchantmentLists": "Organiza Listas de Encantamientos Largas",
     "showItemCooldowns": "Mostrar Recarga de Objetos",
     "speedPercentage": "Porcentaje de Velocidad",
     "collectionDisplay": "Mostrar Progreso de Habilidad",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Rastreador del Rock Pet",
     "dolphinPetTracker": "Rastreador del Dolphin Pet",
     "dungeonsTeammateNameOverlay": "Mostrar Nombres de Compañeros de Dungeons",
-    "showExpertiseKills": "Mostrar Expertise Kills",
     "dungeonsSecretsDisplay": "Mostrar Secretos de Dungeons",
     "showSkillPercentageInstead": "Mostrar Porcentaje en vez de EXP",
     "showSkillXPGained": "Mostrar EXP Ganado",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Abrir Regalos Más Fácilmente",
     "showSwordKills": "Mostrar Kills con Espada",
     "compactTabList": "Lista de Tab Compacta",
-    "highlightMaxEnchantments": "Resaltar Encantamientos Especiales",
+    "highlightSpecialEnchantments": "Resaltar Encantamientos Especiales",
     "disableEmptyGlassPanes": "Deshabilitar Paneles de Cristal Vacíos",
     "candyPointsCounter": "Spooky Event Contador de Candy/Puntos",
     "healingCircleOpacity": "Opacidad del Círculo de Sanación",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Monkey Legendario Nivel 100",
     "biggerWake": "Engrandar Partículas Personalizadas",
     "stackingEnchantProgress": "Mostrar el Progreso de Encantamientos Progresivos",
-    "showReforgeOverlay": "Mostrar Reforge Actual en Menú"
+    "showReforgeOverlay": "Mostrar Reforge Actual en Menú",
+    "reforgeFilter": "Filtro de Reforge",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Encantamientos",
@@ -208,16 +213,6 @@
     "separateMultiple": "Separa Múltiples en Comas.",
     "enchantsToMatch": "%type% para que coincida:",
     "enchantsToExclude": "%type% para excluir:",
-    "wantToViewPatchNotes": "¿Necesitas soporte o quieres leer el registro de los cambios completo?",
-    "downloadLink": "ENLACE DEL VÍDEO/ACTUALIZACIÓN",
-    "directDownload": "ENLACE DE DESCARGA DIRECTO",
-    "openModFolder": "ABRIR CARPETA DE MODS",
-    "joinTheDiscord": "ENLACE DEL DISCORD",
-    "newUpdateAvailable": "¡Una nueva actualización (%version%) está disponible!",
-    "update": {
-      "majorAvailable": "¡Una nueva actualización importante (%version%) está disponible! El enlace para la descarga se puede encontrar en el chat.",
-      "patchAvailable": "¡Una nueva actualización de parche (%version%) está disponible! ¡Busca en el chat para opciónes de descargar!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "¿Necesitas soporte o quieres leer el registro de los cambios completo?",
       "joinDiscord": "¡Únete a nuestro servidor de Discord!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% Efectos Activos",
     "none": "Ninguno",
     "copyModeSet": "El modo de copia de desarrolladores ha sido establecido a: %mode%. ¡Presiona \"%keyName%\" para copiar datos!",
-    "chroma": "Croma"
+    "chroma": "Croma",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "Ninguno",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Muestra que estás realizando una misión de Sven.",
     "titleTarantula": "Misión de Tarántula",
     "descriptionTarantula": "Muestra que estás haciendo una misión de Tarántula."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "el sub-comando para obtener uso detallado por"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Des) §7Recarga todas las configuraciones y recursos del mod. El juego se congelará durante unos segundos."

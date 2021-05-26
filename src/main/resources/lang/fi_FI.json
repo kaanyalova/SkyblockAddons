@@ -14,8 +14,6 @@
     "editLocations": "Muokkaa Sijainteja",
     "guiScale": "Gui Mittakaava: %scale%",
     "resetLocations": "Nollaa Sijainnit",
-    "hideDurability": "Piilota Työkalujen Kestävyys",
-    "showEnchantmentsReforges": "Lumoukset & Uudelleentakomiset",
     "minionStopWarning": "\"Kätyri ei yletä\" -varoitus",
     "hidePlayersNearNPCs": "Piilota pelaajat tärkeiden NPC:den lähettyviltä",
     "backpackStyle": "Repun Tyyli: %style%",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "Estä pimeänäkö-tehostetta välkkymästä",
     "disableMinionLocationWarning": "Estä \"Location Not Perfect\"-varoitukset",
     "jungleAxeCooldown": "Estä Jungle Axen ja Treecapitatorin käyttö jäähtymisaikana",
-    "organizeLongEnchantmentLists": "Järjestä pitkät lumouslistat",
     "showItemCooldowns": "Näytä esineiden jäähtymisaika",
     "speedPercentage": "Nopeusprosentti",
     "collectionDisplay": "Taitojen edistyksen näyttäminen",
@@ -163,7 +160,6 @@
     "rockPetTracker": "Rock-lemmikin seuraaja",
     "dolphinPetTracker": "Dolphin-lemmikin seuraaja",
     "dungeonsTeammateNameOverlay": "Dungeon-tiimiläisten nimen näkymä",
-    "showExpertiseKills": "Näytä Expertisen tapot",
     "dungeonsSecretsDisplay": "Dungeonien kätköjen näyttö",
     "showSkillPercentageInstead": "Näytä prosentti XP:n sijaan",
     "showSkillXPGained": "Näytä tienattu XP",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "Avaa lahjat helpommin",
     "showSwordKills": "Näytä miekan tapot",
     "compactTabList": "Tiivis Tab-lista",
-    "highlightMaxEnchantments": "Korosta erikoislumoukset",
+    "highlightSpecialEnchantments": "Korosta erikoislumoukset",
     "disableEmptyGlassPanes": "Piilota tyhjät lasiruudut",
     "candyPointsCounter": "Spooky-tapahtuman Candy/Piste -laskuri",
     "healingCircleOpacity": "Parannuskehän läpinäkyvyys",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "[TEMP] Level 100 Legendary Monkey",
     "biggerWake": "Enlarge Overlay Particles",
     "stackingEnchantProgress": "Show Stacking Enchant Progress",
-    "showReforgeOverlay": "Show Reforge Overlay"
+    "showReforgeOverlay": "Show Reforge Overlay",
+    "reforgeFilter": "Reforge Filter",
+    "hideEnchantDescription": "Hide Enchant Description",
+    "trevorTheTrapper": {
+      "title": "Trevor the Trapper Features",
+      "trackedEntityProximityIndicator": "Show Tracked Entity Proximity Indicator",
+      "highlightTrackedEntity": "Highlight Tracked Entity",
+      "showQuestCooldown": "Show Trevor's Quest Cooldown",
+      "showQuestCooldownDescription": "This will be displayed above Trevor's head"
+    }
   },
   "messages": {
     "enchants": "Lumoukset",
@@ -208,16 +213,6 @@
     "separateMultiple": "Erota useammat pilkuilla.",
     "enchantsToMatch": "Löydettävä %type%:",
     "enchantsToExclude": "Pois jätettävä %type%:",
-    "wantToViewPatchNotes": "Tarvitsetko apua tai haluatko lukea koko muutoslokin?",
-    "downloadLink": "VIDEO/PÄIVITYSLINKKI",
-    "directDownload": "SUORA LATAUSLINKKI",
-    "openModFolder": "AVAA MODS-KANSIO",
-    "joinTheDiscord": "DISCORD-LINKKI",
-    "newUpdateAvailable": "Uusi päivitys (%version%) on saatavilla!",
-    "update": {
-      "majorAvailable": "Uusi merkittävä päivitys (%version%) on saatavilla! Latauslinkki löytyy chatistä.",
-      "patchAvailable": "Uusi korjauspäivitys (%version%) on saatavilla! Katso chattiin nähdäksesi latausvaihtoehdot!"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "Tarvitsetko apua tai haluatko lukea koko muutoslokin?",
       "joinDiscord": "Join our Discord server!",
@@ -277,7 +272,8 @@
     "effectsActive": "%number% tehostetta aktiivisena",
     "none": "Ei mikään",
     "copyModeSet": "Kehittäjän kopiointitila on asetettu: %mode%. Paina \"%keyName%\" aktivoidaksesi tietojen kopioinnin!",
-    "chroma": "Väriefekti"
+    "chroma": "Väriefekti",
+    "worldRenderedCooldownTime": "§c[SBA]: §rCooldown: %time%s"
   },
   "discordStatus": {
     "titleNone": "Ei mikään",
@@ -306,6 +302,15 @@
     "descriptionSvens": "Näyttää, että olet tekemässä Sven-tehtävää.",
     "titleTarantula": "Tarantula-tehtävä",
     "descriptionTarantula": "Näyttää, että olet tekemässä Tarantula-tehtävää."
+  },
+  "enchantLayout": {
+    "title": "Control how enchants are displayed on item tooltips",
+    "titleCompress": "Compress",
+    "descriptionCompress": "Compresses enchants into as few lines as possible",
+    "titleNormal": "Normal",
+    "descriptionNormal": "Displays enchants like Hypixel does",
+    "titleExpand": "Expand",
+    "descriptionExpand": "Lists each enchant on its own line"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "alakomento, josta saa yksityiskohtaisen käyttökohteet"
           }
         }
+      },
+      "printDeaths": {
+        "help": "§e(Dev) §7Prints the counts stored in the dungeon death counters for debugging purposes."
       },
       "reload": {
         "help": "§e(Kehittäjä) §7Uudelleenlataa kaikki modin asetukset ja resurssit. Peli pysähtyy muutamaksi sekunniksi."

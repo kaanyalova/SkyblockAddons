@@ -14,8 +14,6 @@
     "editLocations": "crwdns190:0crwdne190:0",
     "guiScale": "crwdns192:0%scale%crwdne192:0",
     "resetLocations": "crwdns194:0crwdne194:0",
-    "hideDurability": "crwdns196:0crwdne196:0",
-    "showEnchantmentsReforges": "crwdns198:0crwdne198:0",
     "minionStopWarning": "crwdns200:0crwdne200:0",
     "hidePlayersNearNPCs": "crwdns675:0crwdne675:0",
     "backpackStyle": "crwdns204:0%style%crwdne204:0",
@@ -70,7 +68,6 @@
     "avoidBlinkingNightVision": "crwdns596:0crwdne596:0",
     "disableMinionLocationWarning": "crwdns598:0crwdne598:0",
     "jungleAxeCooldown": "crwdns600:0crwdne600:0",
-    "organizeLongEnchantmentLists": "crwdns602:0crwdne602:0",
     "showItemCooldowns": "crwdns604:0crwdne604:0",
     "speedPercentage": "crwdns608:0crwdne608:0",
     "collectionDisplay": "crwdns612:0crwdne612:0",
@@ -163,7 +160,6 @@
     "rockPetTracker": "crwdns1392:0crwdne1392:0",
     "dolphinPetTracker": "crwdns1394:0crwdne1394:0",
     "dungeonsTeammateNameOverlay": "crwdns1396:0crwdne1396:0",
-    "showExpertiseKills": "crwdns1398:0crwdne1398:0",
     "dungeonsSecretsDisplay": "crwdns1400:0crwdne1400:0",
     "showSkillPercentageInstead": "crwdns1404:0crwdne1404:0",
     "showSkillXPGained": "crwdns1406:0crwdne1406:0",
@@ -175,7 +171,7 @@
     "easierPresentOpening": "crwdns1418:0crwdne1418:0",
     "showSwordKills": "crwdns1420:0crwdne1420:0",
     "compactTabList": "crwdns1442:0crwdne1442:0",
-    "highlightMaxEnchantments": "crwdns1444:0crwdne1444:0",
+    "highlightSpecialEnchantments": "crwdns1658:0crwdne1658:0",
     "disableEmptyGlassPanes": "crwdns1554:0crwdne1554:0",
     "candyPointsCounter": "crwdns1556:0crwdne1556:0",
     "healingCircleOpacity": "crwdns1558:0crwdne1558:0",
@@ -193,7 +189,16 @@
     "legendaryMonkeyLevel100": "crwdns1608:0[TEMP]crwdne1608:0",
     "biggerWake": "crwdns1610:0crwdne1610:0",
     "stackingEnchantProgress": "crwdns1612:0crwdne1612:0",
-    "showReforgeOverlay": "crwdns1614:0crwdne1614:0"
+    "showReforgeOverlay": "crwdns1614:0crwdne1614:0",
+    "reforgeFilter": "crwdns1656:0crwdne1656:0",
+    "hideEnchantDescription": "crwdns1660:0crwdne1660:0",
+    "trevorTheTrapper": {
+      "title": "crwdns1662:0crwdne1662:0",
+      "trackedEntityProximityIndicator": "crwdns1664:0crwdne1664:0",
+      "highlightTrackedEntity": "crwdns1666:0crwdne1666:0",
+      "showQuestCooldown": "crwdns1668:0crwdne1668:0",
+      "showQuestCooldownDescription": "crwdns1670:0crwdne1670:0"
+    }
   },
   "messages": {
     "enchants": "crwdns1272:0crwdne1272:0",
@@ -208,16 +213,6 @@
     "separateMultiple": "crwdns306:0crwdne306:0",
     "enchantsToMatch": "crwdns308:0%type%crwdne308:0",
     "enchantsToExclude": "crwdns310:0%type%crwdne310:0",
-    "wantToViewPatchNotes": "crwdns554:0crwdne554:0",
-    "downloadLink": "crwdns556:0crwdne556:0",
-    "directDownload": "crwdns1034:0crwdne1034:0",
-    "openModFolder": "crwdns576:0crwdne576:0",
-    "joinTheDiscord": "crwdns562:0crwdne562:0",
-    "newUpdateAvailable": "crwdns1036:0%version%crwdne1036:0",
-    "update": {
-      "majorAvailable": "crwdns578:0%version%crwdne578:0",
-      "patchAvailable": "crwdns582:0%version%crwdne582:0"
-    },
     "updateChecker": {
       "wantToViewPatchNotes": "crwdns1616:0crwdne1616:0",
       "joinDiscord": "crwdns1618:0crwdne1618:0",
@@ -277,7 +272,8 @@
     "effectsActive": "crwdns1386:0%number%crwdne1386:0",
     "none": "crwdns1446:0crwdne1446:0",
     "copyModeSet": "crwdns1448:0%mode%crwdnd1448:0%keyName%crwdne1448:0",
-    "chroma": "crwdns1594:0crwdne1594:0"
+    "chroma": "crwdns1594:0crwdne1594:0",
+    "worldRenderedCooldownTime": "crwdns1672:0[SBA]crwdnd1672:0%ticrwdnd1672:0%scrwdne1672:0"
   },
   "discordStatus": {
     "titleNone": "crwdns1044:0crwdne1044:0",
@@ -306,6 +302,15 @@
     "descriptionSvens": "crwdns1134:0crwdne1134:0",
     "titleTarantula": "crwdns1136:0crwdne1136:0",
     "descriptionTarantula": "crwdns1138:0crwdne1138:0"
+  },
+  "enchantLayout": {
+    "title": "crwdns1674:0crwdne1674:0",
+    "titleCompress": "crwdns1676:0crwdne1676:0",
+    "descriptionCompress": "crwdns1678:0crwdne1678:0",
+    "titleNormal": "crwdns1680:0crwdne1680:0",
+    "descriptionNormal": "crwdns1682:0crwdne1682:0",
+    "titleExpand": "crwdns1684:0crwdne1684:0",
+    "descriptionExpand": "crwdns1686:0crwdne1686:0"
   },
   "commandUsage": {
     "sba": {
@@ -367,6 +372,9 @@
             "command": "crwdns1498:0crwdne1498:0"
           }
         }
+      },
+      "printDeaths": {
+        "help": "crwdns1688:0crwdne1688:0"
       },
       "reload": {
         "help": "crwdns1596:0crwdne1596:0"
